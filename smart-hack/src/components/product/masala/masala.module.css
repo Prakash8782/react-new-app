@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.masalaItem{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 28px;
+    align-items:center;
+    border:1px solid black;
+}
+.imgmasala{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.imgmasala img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.masalaItem:hover{
+    transform:scale(1.05);
+}
+.masalaItem span{
+    color: black;
+}
+.masalaItem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.masalacontent h2{
+    text-align: center;
+    margin-left: 75px;
+}
+.masalacontent p{
+    text-align: center;
+    /* margin-left: 110px; */
+}

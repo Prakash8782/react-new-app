@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.foodgrain{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 28px;
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.foodgrain:hover{
+    transform: scale(1.05);
+}
+.foodgrain span{
+    color: black;
+}
+.foodgrain{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foodcontent h2{
+    margin-left: 105px;
+    text-align: center;
+}
+.foodcontent p{
+    text-align: center;
+}
+

@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menulistContainer{
+    width: auto;
+    margin: auto;
+    height: auto;
+}
+.menuBox{
+    width: 250px;
+    height: 320px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.imgarea{
+    width: 220px;
+    height: 250px;
+    margin: 30px;
+}
+.images{
+    border-radius: 10px;
+}
+.listname{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.menulistWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menuButton{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.menuButton:hover{
+    transform:scale(1.10);
+}

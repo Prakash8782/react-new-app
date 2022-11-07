@@ -1,0 +1,10 @@
+.menuContainer{
+    width: auto;
+    margin: auto;
+    height: 450px;
+    text-align: center;
+}
+.menuWrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
